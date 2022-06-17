@@ -15,11 +15,12 @@ public class EstudianteDistancia extends Estudiante{
         costoAsignatura = costoAsg;
     }
     
-    @Override
-    public void establecerNombresEstudiante(String nom){
-        nombresEstudiante = nom.toUpperCase(); // Juan.toUpperCase() >> JUAN 
-    }
-    
+//    @Override// comienza a buscar en la clase se queda ahi
+//    //recibe el parametro lo convierte en mayuscula
+//    public void establecerNombresEstudiante(String nom){
+//        nombresEstudiante = nom.toUpperCase(); // Juan.toUpperCase() >> JUAN 
+//    }
+//    
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){
         numeroAsignaturas = numero;

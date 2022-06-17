@@ -9,7 +9,7 @@ public class EstudianteDistancia extends Estudiante{
     
     public EstudianteDistancia(String n, String ap, String iden, int e){
         super(n, ap, iden, e);
-    }
+    }//dando valores a la super clase
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){
@@ -41,5 +41,6 @@ public class EstudianteDistancia extends Estudiante{
     public double obtenerMatriculaDistancia(){
         return matriculaDistancia;
     }
+    
 
 }
